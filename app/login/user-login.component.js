@@ -10,8 +10,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var user_1 = require('./user');
-var user_service_1 = require('./user.service');
+var user_1 = require('./../user/user');
+var user_service_1 = require('./../user/user.service');
 var router_2 = require('@angular/router');
 var UserLoginComponent = (function () {
     function UserLoginComponent(userService, route, router) {
@@ -45,7 +45,7 @@ var UserLoginComponent = (function () {
     UserLoginComponent = __decorate([
         core_1.Component({
             selector: 'login-form',
-            templateUrl: 'templates/login.html'
+            templateUrl: '/app/login/login.html'
         }), 
         __metadata('design:paramtypes', [user_service_1.UserService, router_1.ActivatedRoute, router_2.Router])
     ], UserLoginComponent);

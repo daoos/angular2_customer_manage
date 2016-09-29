@@ -10,8 +10,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var user_service_1 = require('./user.service');
-var aside_component_1 = require('./aside.component');
+var user_service_1 = require('./user/user.service');
+var aside_component_1 = require('./aside/aside.component');
 var header_nav_component_1 = require('./header-nav.component');
 var AppComponent = (function () {
     function AppComponent() {

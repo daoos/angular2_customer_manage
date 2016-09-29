@@ -10,23 +10,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var user_service_1 = require('./user.service');
-var DashboardComponent = (function () {
-    function DashboardComponent(router, userService) {
+var ArticleEditComponent = (function () {
+    function ArticleEditComponent(router) {
         this.router = router;
-        this.userService = userService;
-        this.users = [];
     }
-    DashboardComponent.prototype.ngOnInit = function () {
+    ArticleEditComponent.prototype.ngOnInit = function () {
     };
-    DashboardComponent = __decorate([
+    ArticleEditComponent = __decorate([
         core_1.Component({
-            selector: 'dashboard',
-            templateUrl: 'templates/dashboard.html'
+            selector: 'article',
+            templateUrl: '/app/article/article-edit.html'
         }), 
-        __metadata('design:paramtypes', [router_1.Router, user_service_1.UserService])
-    ], DashboardComponent);
-    return DashboardComponent;
+        __metadata('design:paramtypes', [router_1.Router])
+    ], ArticleEditComponent);
+    return ArticleEditComponent;
 }());
-exports.DashboardComponent = DashboardComponent;
-//# sourceMappingURL=dashboard.component.js.map
+exports.ArticleEditComponent = ArticleEditComponent;
+//# sourceMappingURL=article-edit.component.js.map

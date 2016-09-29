@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute }            from '@angular/router';
-import { PlayerService } from "./player.service";
-import  { Player } from "./player"
+import {Component, OnInit} from '@angular/core';
+import {Router, ActivatedRoute}            from '@angular/router';
+import {PlayerService} from "./player.service";
+import  {Player} from "./player"
 @Component({
     selector: 'player',
     templateUrl: 'templates/player-view.html',
@@ -13,7 +13,8 @@ export class PlayerViewComponent implements OnInit {
     player = {};
     _player = {};
     edit:boolean;
-    constructor(private router: Router, route: ActivatedRoute, playerService:PlayerService) {
+
+    constructor(private router:Router, route:ActivatedRoute, playerService:PlayerService) {
         this.playerService = playerService;
         this.route = route;
         this.route.params.subscribe(params => {
@@ -25,21 +26,24 @@ export class PlayerViewComponent implements OnInit {
     }
 
 
-    onEdit(){
+    onEdit() {
         this.edit = true;
         this._player = this.player;
     }
-    onReset(){
+
+    onReset() {
         this.edit = false;
         this.player = this._player;
     }
+
     onSaveChanges() {
-        this.playerService.save(this.player).then(player=>{
+        this.playerService.save(this.player).then(player=> {
             this._player = player;
         })
     }
-    onSave(){
-        this.playerService.save(this.player).then(player=>{
+
+    onSave() {
+        this.playerService.save(this.player).then(player=> {
             this._player = player;
             this.edit = false;
             console.log(`Saved!`);
@@ -47,7 +51,6 @@ export class PlayerViewComponent implements OnInit {
     }
 
     ngOnInit() {
-
 
 
     }

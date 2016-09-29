@@ -1,15 +1,15 @@
 "use strict";
 var router_1 = require('@angular/router');
-var dashboard_component_1 = require('./dashboard/dashboard.component');
-var user_login_component_1 = require('./login/user-login.component');
-var user_register_component_1 = require('./user/user-register.component');
-var article_edit_component_1 = require('./article/article-edit.component');
-var player_view_component_1 = require('./player/player-view.component');
-var player_list_component_1 = require('./player/player-list.component');
-var team_edit_component_1 = require('./team/team-edit.component');
-var team_list_component_1 = require('./team/team-list.component');
-var season_list_component_1 = require('./season/season-list.component');
-var season_edit_component_1 = require('./season/season-edit.component');
+var dashboard_component_1 = require('./../dashboard/dashboard.component.ts');
+var user_login_component_1 = require('./user-login.component.ts');
+var user_register_component_1 = require('./../user/user-register.component.ts');
+var article_edit_component_1 = require('./../article/article-edit.component.ts');
+var player_view_component_1 = require('./../player/player-view.component.ts');
+var player_list_component_1 = require('./../player/player-list.component.ts');
+var team_edit_component_1 = require('./../team/team-edit.component.ts');
+var team_list_component_1 = require('./../team/team-list.component.ts');
+var season_list_component_1 = require('./../season/season-list.component.ts');
+var season_edit_component_1 = require('./../season/season-edit.component.ts');
 //路由配置
 exports.routes = [
     {

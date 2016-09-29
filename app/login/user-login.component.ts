@@ -1,13 +1,13 @@
 import { Component, OnInit }    from '@angular/core';
 import { ActivatedRoute }       from '@angular/router';
 import { NgForm }               from '@angular/forms';
-import { User }                 from './user';
-import { UserService }          from './user.service';
+import { User }                 from './../user/user';
+import { UserService }          from './../user/user.service';
 import { Router }           from '@angular/router';
 
 @Component({
     selector: 'login-form',
-    templateUrl: 'templates/login.html'
+    templateUrl: '/app/login/login.html'
 })
 export class UserLoginComponent implements OnInit {
     error: any;
