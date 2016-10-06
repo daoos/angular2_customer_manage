@@ -7,7 +7,7 @@ import { SeasonService }     from './../services/season.service';
 
 @Component({
     selector: 'season',
-    templateUrl: 'templates/season-edit.html',
+    templateUrl: 'templates/season/season-edit.html',
     providers: [SeasonService]
 })
 export class SeasonEditComponent implements OnInit {

@@ -7,7 +7,7 @@ import { TeamService } 		from './../services/team.service';
 
 @Component({
     selector: 'team',
-    templateUrl: 'templates/team-edit.html',
+    templateUrl: 'templates/team/team-edit.html',
     providers: [TeamService]
 })
 export class TeamEditComponent implements OnInit {

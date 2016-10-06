@@ -7,7 +7,7 @@ import { UserService } from './../services/user.service';
 
 @Component({
     selector: 'user',
-    templateUrl: 'templates/user-edit.html'
+    templateUrl: 'templates/user/user-edit.html'
 })
 export class UserEditComponent implements OnInit, OnDestroy {
     @Input() user: User;

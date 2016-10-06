@@ -54,7 +54,7 @@ var UserRegisterComponent = (function () {
     UserRegisterComponent = __decorate([
         core_1.Component({
             selector: 'register-form',
-            templateUrl: 'templates/user-register.html'
+            templateUrl: 'templates/user/user-register.html'
         }), 
         __metadata('design:paramtypes', [user_service_1.UserService, router_1.ActivatedRoute, router_2.Router])
     ], UserRegisterComponent);

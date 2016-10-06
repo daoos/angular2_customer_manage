@@ -49,7 +49,7 @@ var PlayerListComponent = (function () {
     PlayerListComponent = __decorate([
         core_1.Component({
             selector: 'player',
-            templateUrl: 'templates/player-list.html',
+            templateUrl: 'templates/player/player-list.html',
             providers: [player_service_1.PlayerService]
         }), 
         __metadata('design:paramtypes', [router_1.Router, player_service_1.PlayerService])

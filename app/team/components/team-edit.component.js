@@ -49,7 +49,7 @@ var TeamEditComponent = (function () {
     TeamEditComponent = __decorate([
         core_1.Component({
             selector: 'team',
-            templateUrl: 'templates/team-edit.html',
+            templateUrl: 'templates/team/team-edit.html',
             providers: [team_service_1.TeamService]
         }), 
         __metadata('design:paramtypes', [router_2.ActivatedRoute, team_service_1.TeamService, router_1.Router])

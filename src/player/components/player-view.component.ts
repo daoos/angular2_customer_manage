@@ -4,7 +4,7 @@ import {PlayerService} from "./../services/player.service";
 import  {Player} from "./../models/player"
 @Component({
     selector: 'player',
-    templateUrl: 'templates/player-view.html',
+    templateUrl: 'templates/player/player-view.html',
     providers: [PlayerService]
 })
 export class PlayerViewComponent implements OnInit {

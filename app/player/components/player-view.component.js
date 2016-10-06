@@ -53,7 +53,7 @@ var PlayerViewComponent = (function () {
     PlayerViewComponent = __decorate([
         core_1.Component({
             selector: 'player',
-            templateUrl: 'templates/player-view.html',
+            templateUrl: 'templates/player/player-view.html',
             providers: [player_service_1.PlayerService]
         }), 
         __metadata('design:paramtypes', [router_1.Router, router_1.ActivatedRoute, player_service_1.PlayerService])

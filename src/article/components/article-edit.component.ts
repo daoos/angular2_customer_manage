@@ -3,7 +3,7 @@ import {Router}            from '@angular/router';
 
 @Component({
     selector: 'article',
-    templateUrl: '/templates/article-edit.html'
+    templateUrl: '/templates/article/article-edit.html'
 })
 
 export class ArticleEditComponent implements OnInit {

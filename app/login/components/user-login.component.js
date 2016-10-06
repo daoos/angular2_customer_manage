@@ -45,7 +45,7 @@ var UserLoginComponent = (function () {
     UserLoginComponent = __decorate([
         core_1.Component({
             selector: 'login-form',
-            templateUrl: '/templates/login.html'
+            templateUrl: '/templates/login/login.html'
         }), 
         __metadata('design:paramtypes', [user_service_1.UserService, router_1.ActivatedRoute, router_2.Router])
     ], UserLoginComponent);

@@ -5,7 +5,7 @@ import {Player} from "./../models/player";
 
 @Component({
     selector: 'player',
-    templateUrl: 'templates/player-list.html',
+    templateUrl: 'templates/player/player-list.html',
     providers: [PlayerService]
 })
 export class PlayerListComponent implements OnInit {

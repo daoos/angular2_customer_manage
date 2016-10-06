@@ -35,7 +35,7 @@ var SeasonListComponent = (function () {
     SeasonListComponent = __decorate([
         core_1.Component({
             selector: 'season',
-            templateUrl: 'templates/season-list.html',
+            templateUrl: 'templates/season/season-list.html',
             providers: [season_service_1.SeasonService],
             directives: [router_2.ROUTER_DIRECTIVES]
         }), 

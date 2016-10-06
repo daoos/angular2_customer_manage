@@ -49,7 +49,7 @@ var SeasonEditComponent = (function () {
     SeasonEditComponent = __decorate([
         core_1.Component({
             selector: 'season',
-            templateUrl: 'templates/season-edit.html',
+            templateUrl: 'templates/season/season-edit.html',
             providers: [season_service_1.SeasonService]
         }), 
         __metadata('design:paramtypes', [router_2.ActivatedRoute, season_service_1.SeasonService, router_1.Router])

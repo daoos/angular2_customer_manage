@@ -7,7 +7,7 @@ import { SeasonService }      from './../services/season.service';
 
 @Component({
     selector: 'season',
-    templateUrl: 'templates/season-list.html',
+    templateUrl: 'templates/season/season-list.html',
     providers: [SeasonService],
     directives: [ROUTER_DIRECTIVES]
 })

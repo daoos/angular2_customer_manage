@@ -6,7 +6,7 @@ import {UserService} from './../../user/services/user.service';
 
 @Component({
     selector: 'dashboard',
-    templateUrl: 'templates/dashboard.html'
+    templateUrl: 'templates/dashboard/dashboard.html'
 })
 export class DashboardComponent implements OnInit {
 

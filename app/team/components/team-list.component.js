@@ -35,7 +35,7 @@ var TeamListComponent = (function () {
     TeamListComponent = __decorate([
         core_1.Component({
             selector: 'team',
-            templateUrl: 'templates/team-list.html',
+            templateUrl: 'templates/team/team-list.html',
             providers: [team_service_1.TeamService],
             directives: [router_2.ROUTER_DIRECTIVES]
         }), 

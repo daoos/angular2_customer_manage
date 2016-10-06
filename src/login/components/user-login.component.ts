@@ -7,7 +7,7 @@ import { Router }           from '@angular/router';
 
 @Component({
     selector: 'login-form',
-    templateUrl: '/templates/login.html'
+    templateUrl: '/templates/login/login.html'
 })
 export class UserLoginComponent implements OnInit {
     error: any;

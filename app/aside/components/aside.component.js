@@ -15,7 +15,7 @@ var ASideComponent = (function () {
     ASideComponent = __decorate([
         core_1.Component({
             selector: 'a-side',
-            templateUrl: 'templates/aside.html'
+            templateUrl: 'templates/aside/aside.html'
         }), 
         __metadata('design:paramtypes', [])
     ], ASideComponent);

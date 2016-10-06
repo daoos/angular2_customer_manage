@@ -19,7 +19,7 @@ var ArticleEditComponent = (function () {
     ArticleEditComponent = __decorate([
         core_1.Component({
             selector: 'article',
-            templateUrl: '/templates/article-edit.html'
+            templateUrl: '/templates/article/article-edit.html'
         }), 
         __metadata('design:paramtypes', [router_1.Router])
     ], ArticleEditComponent);

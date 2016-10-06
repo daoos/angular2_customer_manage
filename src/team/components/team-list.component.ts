@@ -7,7 +7,7 @@ import { TeamService } 		from './../services/team.service';
 
 @Component({
     selector: 'team',
-    templateUrl: 'templates/team-list.html',
+    templateUrl: 'templates/team/team-list.html',
     providers: [TeamService],
     directives: [ROUTER_DIRECTIVES]
 })

@@ -7,7 +7,7 @@ import { Router }               from '@angular/router';
 
 @Component({
     selector: 'register-form',
-    templateUrl: 'templates/user-register.html'
+    templateUrl: 'templates/user/user-register.html'
 })
 export class UserRegisterComponent implements OnInit {
     error: any;
