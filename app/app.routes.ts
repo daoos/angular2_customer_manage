@@ -1,16 +1,16 @@
 import {provideRouter, RouterConfig}  from '@angular/router';
 
-import {DashboardComponent}     from './dashboard/dashboard.component';
-import {UserLoginComponent}     from './login/user-login.component';
-import {UserEditComponent}      from './user/user-edit.component';
-import {UserRegisterComponent}  from './user/user-register.component';
-import {ArticleEditComponent}   from './article/article-edit.component';
-import {PlayerViewComponent}    from './player/player-view.component';
-import {PlayerListComponent}    from './player/player-list.component';
-import {TeamEditComponent}      from './team/team-edit.component';
-import {TeamListComponent}      from './team/team-list.component';
-import {SeasonListComponent}    from './season/season-list.component';
-import {SeasonEditComponent}    from './season/season-edit.component';
+import {DashboardComponent}     from './dashboard/components/dashboard.component';
+import {UserLoginComponent}     from './login/components/user-login.component';
+import {UserEditComponent}      from './user/components/user-edit.component';
+import {UserRegisterComponent}  from './user/components/user-register.component';
+import {ArticleEditComponent}   from './article/components/article-edit.component';
+import {PlayerViewComponent}    from './player/components/player-view.component';
+import {PlayerListComponent}    from './player/components/player-list.component';
+import {TeamEditComponent}      from './team/components/team-edit.component';
+import {TeamListComponent}      from './team/components/team-list.component';
+import {SeasonListComponent}    from './season/components/season-list.component';
+import {SeasonEditComponent}    from './season/components/season-edit.component';
 //路由配置
 export const routes:RouterConfig = [
     {

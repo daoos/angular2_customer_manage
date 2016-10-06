@@ -9,30 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
-var user_service_1 = require('./user/services/user.service');
-var aside_component_1 = require('./aside/components/aside.component');
-var header_nav_component_1 = require('./header-nav.component');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.title = 'SF Winterbach';
+var ASideComponent = (function () {
+    function ASideComponent() {
     }
-    AppComponent = __decorate([
+    ASideComponent = __decorate([
         core_1.Component({
-            selector: 'app',
-            templateUrl: 'templates/page.html',
-            directives: [
-                router_1.ROUTER_DIRECTIVES,
-                aside_component_1.ASideComponent,
-                header_nav_component_1.HeaderNavComponent
-            ],
-            providers: [
-                user_service_1.UserService,
-            ]
+            selector: 'a-side',
+            templateUrl: 'templates/aside.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], ASideComponent);
+    return ASideComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.ASideComponent = ASideComponent;
+//# sourceMappingURL=aside.component.js.map

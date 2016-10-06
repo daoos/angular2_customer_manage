@@ -1,9 +1,9 @@
 import { Component }          from '@angular/core';
 import { ROUTER_DIRECTIVES }  from '@angular/router';
 
-import { UserService }        from './user/user.service';
+import { UserService }        from './user/services/user.service';
 
-import { ASideComponent }     from './aside/aside.component';
+import { ASideComponent }     from './aside/components/aside.component';
 import { HeaderNavComponent } from './header-nav.component';
 
 @Component({
